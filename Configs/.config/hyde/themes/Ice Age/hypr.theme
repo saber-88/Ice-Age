@@ -1,9 +1,9 @@
 $HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
-exec = gsettings set org.gnome.desktop.interface icon-theme 'Icon_Breeze-Noir-White-Blue'
-exec = gsettings set org.gnome.desktop.interface gtk-theme 'Gtk_VALYRIAN-Blue-Steel'
+exec = gsettings set org.gnome.desktop.interface icon-theme 'Breeze-Noir-White-Blue'
+exec = gsettings set org.gnome.desktop.interface gtk-theme 'VALYRIAN-Blue-Steel'
 exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 exec = gsettings set org.gnome.desktop.interface font-name 'Lekton Regular'
-exec = Hyde cursor theme 'Cursor_Bibata-Mordern-Ice' size 20
+exec = Hyde cursor theme 'Bibata-Mordern-Ice' size 20
 
 general { 
   gaps_in = 8
