@@ -3,6 +3,7 @@ exec = gsettings set org.gnome.desktop.interface icon-theme 'Breeze-Noir-White-B
 exec = gsettings set org.gnome.desktop.interface gtk-theme 'VALYRIAN-Blue-Steel'
 exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 exec = gsettings set org.gnome.desktop.interface font-name 'Lekton Regular'
+exec = Hyde cursor theme 'Bibata-Mordern-Ice' size 20
 
 general { 
   gaps_in = 8
