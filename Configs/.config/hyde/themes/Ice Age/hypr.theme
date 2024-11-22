@@ -36,7 +36,7 @@ decoration {
   rounding = 7
     active_opacity = 1
     inactive_opacity = 0.999
-    drop_shadow = true
+    drop_shadow = false
     shadow_range = 20
     shadow_render_power = 9
     col.shadow = rgba(0, 0, 0, 1)
