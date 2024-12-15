@@ -34,19 +34,14 @@ general {
 
 decoration {
   rounding = 7
-    active_opacity = 1
-    inactive_opacity = 0.999
-    drop_shadow = false
-    shadow_range = 20
-    shadow_render_power = 9
-    col.shadow = rgba(0, 0, 0, 1)
-
-    blur {
-      enabled = true
-        size = 3
-        passes = 5
-        noise= 0.01
-        vibrancy = 1
-    }
+  active_opacity = 1
+  inactive_opacity = 0.999
+  blur {
+    enabled = true
+    size = 3
+    passes = 5
+    noise= 0.01
+    vibrancy = 1
+  }
 }
 layerrule=unset,waybar
