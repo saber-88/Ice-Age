@@ -5,7 +5,7 @@ $ICON_THEME= Breeze-Noir-White-Blue
 $COLOR_SCHEME= prefer-dark
 $CURSOR_THEME= Bibata-Mordern-Ice
 $CURSOR_SIZE= 20
-$FONT='Lekton Regular'
+$FONT='Lekton'
 
 
 #? For anyone using the old implementaiton of hyprdots
@@ -19,7 +19,7 @@ exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 exec = gsettings set org.gnome.desktop.interface cursor-theme ' Bibata-Mordern-Ice'
 exec = gsettings set org.gnome.desktop.interface cursor-size 20
 exec = hyprctl setcursor Bibata-Mordern-Ice 20
-exec = gsettings set org.gnome.desktop.interface font-name 'Lekton Regular'
+exec = gsettings set org.gnome.desktop.interface font-name 'Lekton'
 
 general { 
   gaps_in = 8
