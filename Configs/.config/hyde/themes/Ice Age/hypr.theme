@@ -15,11 +15,11 @@ $FONT='Lekton-Regular'
 exec = gsettings set org.gnome.desktop.interface icon-theme 'Breeze-Noir-White-Blue'
 exec = gsettings set org.gnome.desktop.interface gtk-theme 'VALYRIAN-Blue-Steel'
 exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
-
-exec = gsettings set org.gnome.desktop.interface cursor-theme ' Bibata-Mordern-Ice'
+exec = gsettings set org.gnome.desktop.interface font-name 'Lekton-Regular'
+exec = gsettings set org.gnome.desktop.interface cursor-theme 'Bibata-Mordern-Ice'
 exec = gsettings set org.gnome.desktop.interface cursor-size 20
 exec = hyprctl setcursor Bibata-Mordern-Ice 20
-exec = gsettings set org.gnome.desktop.interface font-name 'Lekton-Regular'
+
 
 general { 
   gaps_in = 8
