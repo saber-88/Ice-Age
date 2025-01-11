@@ -5,7 +5,7 @@ $ICON_THEME= Breeze-Noir-White-Blue
 $COLOR_SCHEME= prefer-dark
 $CURSOR_THEME= Bibata-Modern-Ice
 $CURSOR_SIZE= 20
-$FONT='Lekton-Regular'
+$FONT=Lekton-Regular
 
 
 #? For anyone using the old implementaiton of hyprdots
