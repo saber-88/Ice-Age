@@ -3,9 +3,8 @@ $HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
 $GTK_THEME= VALYRIAN-Blue-Steel
 $ICON_THEME= Breeze-Noir-White-Blue
 $COLOR_SCHEME= prefer-dark
-$CURSOR_THEME= Bibata-Mordern-Ice
+$CURSOR_THEME= Bibata-Modern-Classic
 $CURSOR_SIZE= 20
-$FONT='Lekton Regular'
 
 
 #? For anyone using the old implementaiton of hyprdots
@@ -15,11 +14,10 @@ $FONT='Lekton Regular'
 exec = gsettings set org.gnome.desktop.interface icon-theme 'Breeze-Noir-White-Blue'
 exec = gsettings set org.gnome.desktop.interface gtk-theme 'VALYRIAN-Blue-Steel'
 exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
-
-exec = gsettings set org.gnome.desktop.interface cursor-theme ' Bibata-Mordern-Ice'
+exec = gsettings set org.gnome.desktop.interface cursor-theme 'Bibata-Modern-Classic'
+exec = hyprctl setcursor Bibata-Modern-Ice 20
 exec = gsettings set org.gnome.desktop.interface cursor-size 20
-exec = hyprctl setcursor Bibata-Mordern-Ice 20
-exec = gsettings set org.gnome.desktop.interface font-name 'Lekton Regular'
+
 
 general { 
   gaps_in = 8
