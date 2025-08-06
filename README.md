@@ -18,7 +18,7 @@
 ## Installation
 
 ```sh
-Hyde theme patch 
+hydectl theme import
 ```
 and choose Ice-Age
 
