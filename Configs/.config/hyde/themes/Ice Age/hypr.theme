@@ -11,12 +11,12 @@ $CURSOR_SIZE= 20
 #? You can use the following commands to set the following
 #? This is not needed for the new implementation as this makes it slower
 
-#?exec = gsettings set org.gnome.desktop.interface icon-theme 'Breeze-Noir-White-Blue'
-#?exec = gsettings set org.gnome.desktop.interface gtk-theme 'VALYRIAN-Blue-Steel'
-#?exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
-#?exec = gsettings set org.gnome.desktop.interface cursor-theme 'Bibata-Modern-Classic'
-#?exec = hyprctl setcursor Bibata-Modern-Classic 20
-#?exec = gsettings set org.gnome.desktop.interface cursor-size 20
+exec = gsettings set org.gnome.desktop.interface icon-theme 'Breeze-Noir-White-Blue'
+exec = gsettings set org.gnome.desktop.interface gtk-theme 'VALYRIAN-Blue-Steel'
+exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+exec = gsettings set org.gnome.desktop.interface cursor-theme 'Bibata-Modern-Classic'
+exec = hyprctl setcursor Bibata-Modern-Classic 20
+exec = gsettings set org.gnome.desktop.interface cursor-size 20
 
 
 general { 
